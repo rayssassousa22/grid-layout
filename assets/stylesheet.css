@@ -4,7 +4,7 @@
     margin-bottom: 30px;
     display: grid;
     grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 50px 50px 50px;
+    grid-template-rows: 50px 110px;
 }
 
 .item{
