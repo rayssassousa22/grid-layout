@@ -3,6 +3,7 @@
     padding: 10px;
     margin-bottom: 30px;
     display: grid;
+    grid-template-columns: 100px 100px 100px;
 }
 
 .item{
