@@ -8,3 +8,33 @@
 .item{
     background-color: burlywood;
 }
+
+.item-01{
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.item-02{
+    background-color:aquamarine ;
+    border: 1px solid black;
+}
+
+.item-03{
+    background-color:blue;
+    border: 1px solid black;
+}
+
+.item-04{
+    background-color:brown;
+    border: 1px solid black;
+}
+
+.item-05{
+    background-color:cadetblue;
+    border: 1px solid black;
+}
+
+.item-06{
+    background-color: orange;
+    border: 1px solid black;
+}
