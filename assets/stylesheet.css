@@ -14,8 +14,10 @@
 .item-01{
     background-color: aqua;
     border: 1px solid black;
-    grid-column: 3 / 4;
-    grid-row: 2 / 3;
+    grid-area: 2 / 3 / 3 / 4;
+
+    /* grid-column: 3 / 4;
+    grid-row: 2 / 3;*/
 }
 
 .item-02{
