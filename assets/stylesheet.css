@@ -2,7 +2,12 @@ body{
     display: grid;
     margin: 0;
     height: 100vh;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template: 
+    "header header header header" 200px
+    "main main . aside" 200px
+    "footer footer footer footer" 200px
+    / 1fr 1fr 1fr 1fr;
+    /* grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 150px);
     grid-template-areas: "header header header header" "main main . aside" "footer footer footer footer"; /* se faz a denominação por linha*/
 }
