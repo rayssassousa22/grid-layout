@@ -23,6 +23,8 @@
 
 .item-02{
     background-color:aquamarine ;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 
 .item-03{
