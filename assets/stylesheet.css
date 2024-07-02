@@ -2,37 +2,23 @@ body{
     display: grid;
     margin: 0;
     height: 100vh;
-    gap: 10px 15px;
-    grid-template: 
-    "header header header header" 1fr
-    "main main ola aside" 1fr
-    "footer footer footer footer" 200px
-    / 1fr 1fr 1fr 1fr;
-    /* grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 150px);
-    grid-template-areas: "header header header header" "main main . aside" "footer footer footer footer"; /* se faz a denominação por linha*/
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 header{
     background-color: red;
-    grid-area: header;
 }
 
-h1{
-    grid-area: ola;
-}
 
 main{
     background-color: yellow;
-    grid-area: main;
 }
 
 aside{
     background-color: violet;
-    grid-area: aside;
 }
 
 footer{
     background-color: chocolate;
-    grid-area: footer;
 }
