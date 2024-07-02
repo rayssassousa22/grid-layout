@@ -5,7 +5,7 @@ body{
     gap: 10px 15px;
     grid-template: 
     "header header header header" 1fr
-    "main main . aside" 1fr
+    "main main ola aside" 1fr
     "footer footer footer footer" 200px
     / 1fr 1fr 1fr 1fr;
     /* grid-template-columns: repeat(4, 1fr);
@@ -16,6 +16,10 @@ body{
 header{
     background-color: red;
     grid-area: header;
+}
+
+h1{
+    grid-area: ola;
 }
 
 main{
