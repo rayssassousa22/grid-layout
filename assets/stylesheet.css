@@ -1,16 +1,14 @@
 body{
     display: grid;
     margin: 0;
-    height: 100vh;
+    height: 60vh;
     gap: 10px;
-    grid: "header header header" 1fr
-            "footer footer footer" 2fr
-            / auto 110px auto;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    padding: 10vh;
 }
 
 header{
     background-color: red;
-    grid-area: header;
 }
 
 
@@ -24,5 +22,4 @@ aside{
 
 footer{
     background-color: chocolate;
-    grid-area: footer;
 }
