@@ -3,11 +3,14 @@ body{
     margin: 0;
     height: 100vh;
     gap: 10px;
-    grid: 100px / repeat(2, 1fr);
+    grid: "header header header" 1fr
+            "footer footer footer" 2fr
+            / auto 3fr auto;
 }
 
 header{
     background-color: red;
+    grid-area: header;
 }
 
 
@@ -21,4 +24,5 @@ aside{
 
 footer{
     background-color: chocolate;
+    grid-area: footer;
 }
