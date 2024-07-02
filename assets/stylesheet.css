@@ -3,9 +3,9 @@ body{
     margin: 0;
     height: 60vh;
     gap: 10px;
-    grid-template: repeat(3, auto) / repeat(3, auto);
+    grid-template: repeat(3, auto) / repeat(3, 1fr);
     padding: 10vh;
-    place-content: space-between stretch;
+    place-content: space-around stretch;
 }
 
 header{
@@ -27,7 +27,7 @@ footer{
 
 .item-01{
     background-color: aqua;
-    place-self: center;
+    place-self: start stretch;
 }
 
 .item-02{
