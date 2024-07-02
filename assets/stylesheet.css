@@ -3,9 +3,9 @@ body{
     margin: 0;
     height: 60vh;
     gap: 10px;
-    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-template: repeat(3, auto) / repeat(3, auto);
     padding: 10vh;
-    place-items: center center;
+    place-content: space-between /*center*/;
 }
 
 header{
