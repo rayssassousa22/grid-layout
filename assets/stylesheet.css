@@ -27,6 +27,7 @@ footer{
 
 .item-01{
     background-color: aqua;
+    place-self: center;
 }
 
 .item-02{
