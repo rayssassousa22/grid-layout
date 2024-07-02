@@ -2,6 +2,7 @@ body{
     display: grid;
     margin: 0;
     height: 100vh;
+    gap: 10px 15px;
     grid-template: 
     "header header header header" 1fr
     "main main . aside" 1fr
