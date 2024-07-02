@@ -5,7 +5,7 @@ body{
     gap: 10px;
     grid: "header header header" 1fr
             "footer footer footer" 2fr
-            / auto 3fr auto;
+            / auto 110px auto;
 }
 
 header{
