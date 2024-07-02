@@ -5,6 +5,7 @@ body{
     gap: 10px;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
     padding: 10vh;
+    justify-items: center;
 }
 
 header{
