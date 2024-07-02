@@ -3,8 +3,8 @@ body{
     margin: 0;
     height: 100vh;
     grid-template: 
-    "header header header header" 200px
-    "main main . aside" 200px
+    "header header header header" 1fr
+    "main main . aside" 1fr
     "footer footer footer footer" 200px
     / 1fr 1fr 1fr 1fr;
     /* grid-template-columns: repeat(4, 1fr);
