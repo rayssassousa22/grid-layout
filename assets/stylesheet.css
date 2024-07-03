@@ -1,20 +1,23 @@
 header{
     background-color: red;
     color: white;
-    padding: 10rem;
+    padding: 2rem;
     text-align: center;
+    grid-area: 1 / 1 / 2 / 5;
 }
 
 main{
     background-color: yellow;
     padding: 3rem;
     text-align: center;
+    grid-area: 2 / 2 / 3 / 5;
 }
 
 nav{
     background-color: tomato;
     padding: 3rem;
     text-align: center;
+    grid-area: 2 / 1 / 5 / 2;
 }
 
 a, li{
@@ -28,6 +31,7 @@ a, li{
     background-color: aqua;
     padding: 3rem;
     text-align: center;
+    grid-area: 3 / 2 / 4 / 3;
 }
 
 .content-02{
@@ -35,12 +39,14 @@ a, li{
     color: white;
     padding: 3rem;
     text-align: center;
+    grid-area: 3 / 3 / 4 / 4;
 }
 
 .content-03{
     background-color: greenyellow;
     padding: 3rem;
     text-align: center;
+    grid-area: 3 / 4 / 4 / 5;
 }
 
 footer{
@@ -48,4 +54,5 @@ footer{
     color: white;
     padding: 3rem;
     text-align: center;
+    grid-area: 4 / 2 / 5 / 5;
 }
