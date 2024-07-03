@@ -1,0 +1,39 @@
+header{
+    font-size: 50px;
+    background-color: red;
+    color: white;
+    margin: 1vh;
+}
+
+main{
+    font-size: 1rem;
+    background-color: yellow;
+    margin: 1vh;
+}
+
+aside{
+    background-color: aqua;
+    margin: 1vh;
+}
+
+footer{
+    background-color: blue;
+    color: white;
+    margin: 1vh;
+}
+
+.item-01{
+    background-color:black;
+    color: white;
+    margin: 1vh;
+}
+
+.item-02{
+    background-color: aquamarine;
+    margin: 1vh;
+}
+
+.item-03{
+    background-color: violet;
+    margin: 1vh;
+}
