@@ -46,12 +46,14 @@ footer{
 
 .galery{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap; /*quebra pra outra linha*/
 }
 
 .item-03{
-    width: 100%;
+    width: 40%;
     background-color: violet;
     padding: 3rem;
     text-align: center;
+    margin: 5px;
 }
