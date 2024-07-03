@@ -7,3 +7,19 @@ h2{
     font-size: 1rem;
     font-weight: normal;
 }
+
+h3{
+    text-transform: uppercase;
+}
+
+.details{
+    display: flex;
+    background-color: white;
+    padding: 1.5rem;
+    color: black;
+}
+
+.cards{
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
