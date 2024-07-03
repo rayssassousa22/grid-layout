@@ -1,3 +1,5 @@
 body{
-    column-count: 2;
+    column-width: 20rem;
+    column-rule: 2px solid black;
+    column-gap: 2vw;
 }
