@@ -86,11 +86,12 @@ footer{
         grid-template-areas: 
         "header header header header header header"
         "nav nav main main main main"
-        "nav nav content-01 content-02 content-03 ."
+        "nav nav main main main main"
         "nav nav content-01 content-02 content-03 ."
         "nav nav content-01 content-02 content-03 ."
         "footer footer footer footer footer footer"
-    ;
+        ;
+        text-align: center;
     }
 }
 
@@ -106,7 +107,8 @@ footer{
         "nav content-02"
         "nav content-03"
         "footer footer"
-    ;
+        ;
+        text-align: center;
     }
 }
 
