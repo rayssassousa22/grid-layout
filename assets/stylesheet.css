@@ -104,3 +104,9 @@ footer{
     ;
     }
 }
+
+@media screen and (pointer: coarse){
+    a{
+        text-decoration: underline;
+    }
+}
