@@ -17,21 +17,24 @@ body{
 header{
     background-color: red;
     color: white;
-    padding: 2rem;
     text-align: center;
     grid-area: header;
 }
 
+header h1{
+    font-size: calc(1.5rem + 3vw);
+}
+
 main{
     background-color: yellow;
-    padding: 1rem;
+    padding: 20px;
     text-align: center;
     grid-area: main;
 }
 
 nav{
     background-color: tomato;
-    padding: 3rem;
+    padding: 20px;
     text-align: center;
     grid-area: nav;
 }
@@ -41,26 +44,31 @@ a, li{
     color: white;
     list-style: none;
     padding: 5px;
+    font-size: calc(1.5rem + 0.5vw);
 }
 
 .content-01{
     background-color: aqua;
-    padding: 3rem;
+    padding: 20px;
     text-align: center;
     grid-area: content-01;
+}
+
+h2, h3, h4{
+    font-size: calc(0.5rem + 1vw);
 }
 
 .content-02{
     background-color: purple;
     color: white;
-    padding: 3rem;
+    padding: 20px;
     text-align: center;
     grid-area: content-02;
 }
 
 .content-03{
     background-color: greenyellow;
-    padding: 3rem;
+    padding: 20px;
     text-align: center;
     grid-area: content-03;
 }
