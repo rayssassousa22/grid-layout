@@ -72,3 +72,10 @@ footer{
     text-align: center;
     grid-area: footer;
 }
+
+@media screen (min-width:500px) {
+    header {
+        background-color: black;
+        color: white;
+    }
+}
