@@ -88,3 +88,19 @@ footer{
     ;
     }
 }
+
+@media screen and (orientation: portrait){
+    body{
+        grid-template-columns: repeat(2, 1fr);
+        height: 100vh;
+        width: 100vw;
+        grid-template-areas: 
+        "header header"
+        "nav main"
+        "nav content-01"
+        "nav content-02"
+        "nav content-03"
+        "footer footer"
+    ;
+    }
+}
