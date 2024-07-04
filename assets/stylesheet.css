@@ -44,7 +44,7 @@ a, li{
     color: white;
     list-style: none;
     padding: 5px;
-    font-size: calc(1.5rem + 0.5vw);
+    font-size: calc(.5rem + 0.5vw);
 }
 
 .content-01{
