@@ -86,9 +86,9 @@ footer{
         grid-template-areas: 
         "header header header header header header"
         "nav nav main main main main"
-        "nav nav content-01 content-01 content-01 content-01"
-        "nav nav content-02 content-02 content-02 content-02"
-        "nav nav content-03 content-03 content-03 content-03"
+        "nav nav content-01 content-02 content-03 ."
+        "nav nav content-01 content-02 content-03 ."
+        "nav nav content-01 content-02 content-03 ."
         "footer footer footer footer footer footer"
     ;
     }
