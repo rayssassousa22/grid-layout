@@ -25,6 +25,10 @@ header::first-letter{
     color: yellow;
 }
 
+header::first-line{
+    font-size: 1rem;
+}
+
 header h1{
     font-size: calc(1.5rem + 3vw);
 }
