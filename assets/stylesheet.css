@@ -27,6 +27,7 @@ header::first-letter{
 
 header::first-line{
     text-transform: uppercase;
+    font-family: serif;
 }
 
 header h1{
