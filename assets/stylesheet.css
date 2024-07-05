@@ -16,7 +16,7 @@ body{
 }
 header{
     background-color: red;
-    color: white;
+    color: blue;
     text-align: center;
     grid-area: header;
 }
