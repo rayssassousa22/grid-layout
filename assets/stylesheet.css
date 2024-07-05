@@ -48,6 +48,10 @@ nav{
     grid-area: nav;
 }
 
+nav ul li::marker {
+    content: "↝";
+}
+
 a, li{
     text-decoration: none;
     color: white;
