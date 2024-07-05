@@ -52,6 +52,11 @@ nav ul li::marker {
     content: "↝";
 }
 
+h2::selection{
+    background-color: black;
+    color: white;
+}
+
 a, li{
     text-decoration: none;
     color: white;
