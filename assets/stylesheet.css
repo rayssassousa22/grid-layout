@@ -76,6 +76,7 @@ input::file-selector-button{
     background-color: lightcyan;
     color: rgb(78, 78, 245);
     border: 1px solid rgb(78, 78, 245);
+    cursor: pointer;
 }
 
 /*permite estilizar as cores de botões de seleção de arquivos*/
