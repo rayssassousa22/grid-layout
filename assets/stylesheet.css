@@ -141,6 +141,26 @@ h2, h3, h4{
     grid-area: content-03;
 }
 
+.message, button, input{
+    font-size: 1.5rem;
+}
+
+input:focus, textarea:focus{
+    border: 1px solid blue;
+    background-color: lightcyan;
+}
+
+label:focus-within{
+    font-weight: 900;
+}
+
+button:focus{
+    padding: 20px;
+    background-color: aliceblue;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
 footer{
     background-color: blue;
     color: white;
@@ -181,6 +201,7 @@ footer{
         "nav content-01"
         "nav content-02"
         "nav content-03"
+        "nav ."
         "footer footer"
         ;
         text-align: center;
