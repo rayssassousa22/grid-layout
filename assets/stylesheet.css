@@ -52,7 +52,7 @@ nav ul li::marker {
     content: "↝";
 }
 
-h2::selection{
+::selection{
     background-color: black;
     color: white;
 }
