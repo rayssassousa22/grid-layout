@@ -63,6 +63,21 @@ input::file-selector-button{
     background-color: white;
 }
 
+.content-information{
+    border: white 1px solid;
+    border-radius: 10px;
+    font-weight: 900;
+    font-family: sans-serif;
+    padding: 2rem;
+    display: inline-block;
+}
+
+.content-information:hover{
+    background-color: lightcyan;
+    color: rgb(78, 78, 245);
+    border: 1px solid rgb(78, 78, 245);
+}
+
 /*permite estilizar as cores de botões de seleção de arquivos*/
 
 ::selection{
