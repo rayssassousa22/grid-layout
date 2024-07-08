@@ -52,6 +52,11 @@ nav ul li::marker {
     content: "↝";
 }
 
+input::file-selector-button{
+    border: 1px solid red;
+    padding: 10px;
+}
+
 ::selection{
     background-color: black;
     color: white;
